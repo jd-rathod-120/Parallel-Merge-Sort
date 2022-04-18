@@ -80,8 +80,8 @@ void mergeSortAux(ll *arr, ll n, ll *dummy) {
    
    for(i=l;i<=r;i++)
     {
-        a[i]/=mx;
-        flop++;
+        arr[i]=dummy[i];
+        //flop++;
     }
 } 
   
@@ -174,4 +174,4 @@ int main()
 	free(arr);
     free(dummy);
 	return 0;
-}
+} 
